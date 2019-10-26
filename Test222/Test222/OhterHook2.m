@@ -17,16 +17,16 @@
 
 + (void)load {
     
-    SEL origSel = @selector(setText:) ;
-    SEL altSel = @selector(setTextHooked:) ;
-
-    Method origMethod = class_getInstanceMethod([UILabel class], origSel);
-    // 给UILabel添加一个方法,然后在交换.不需要在类别中实现
-    class_addMethod([UILabel class],altSel,
-                    (IMP)setTextHooked,
-                    "v@:@");
-    Method altMethod = class_getInstanceMethod([UILabel class], altSel);
-    method_exchangeImplementations(origMethod,altMethod);
+//    SEL origSel = @selector(setText:) ;
+//    SEL altSel = @selector(setTextHooked:) ;
+//
+//    Method origMethod = class_getInstanceMethod([UILabel class], origSel);
+//    // 给UILabel添加一个方法,然后在交换.不需要在类别中实现
+//    class_addMethod([UILabel class],altSel,
+//                    (IMP)setTextHooked,
+//                    "v@:@");
+//    Method altMethod = class_getInstanceMethod([UILabel class], altSel);
+//    method_exchangeImplementations(origMethod,altMethod);
     
 }
 
@@ -38,7 +38,7 @@ void setTextHooked(id self , SEL _cmd,NSString * string) {
         string = @"";
     }
     if ([string isKindOfClass:[NSNumber class]]) {
-        NSLog(@"怎么回事,小兄弟,传个Number过来,邪门歪道,传统方法演变过来,偶尔有用");
+        NSLog(@"怎么回事,小兄弟,传个Number过来,邪门歪道22,偶尔有用");
         string = string.description;
     }
     

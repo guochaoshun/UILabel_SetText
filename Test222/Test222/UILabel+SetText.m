@@ -14,16 +14,16 @@
 + (void)load {
     
     
-    SEL origSel = @selector(setText:) ;
-    SEL altSel = @selector(setTextHooked:) ;
-
-    Method origMethod = class_getInstanceMethod(self, origSel);
-    Method altMethod = class_getInstanceMethod(self, altSel);
-    if (!origMethod || !altMethod) {
-        return ;
-    }
-    // 交换实现
-    method_exchangeImplementations(origMethod,altMethod);
+//    SEL origSel = @selector(setText:) ;
+//    SEL altSel = @selector(setTextHooked:) ;
+//
+//    Method origMethod = class_getInstanceMethod(self, origSel);
+//    Method altMethod = class_getInstanceMethod(self, altSel);
+//    if (!origMethod || !altMethod) {
+//        return ;
+//    }
+//    // 交换实现
+//    method_exchangeImplementations(origMethod,altMethod);
     
 }
 
