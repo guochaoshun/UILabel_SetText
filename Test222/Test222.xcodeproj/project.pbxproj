@@ -17,6 +17,8 @@
 		F031610223A6825900355F8E /* DyldFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F03160FA23A6825800355F8E /* DyldFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F06247212363EEA60063A221 /* OhterHook2.m in Sources */ = {isa = PBXBuildFile; fileRef = F06247202363EEA60063A221 /* OhterHook2.m */; };
 		F0B61C7B240FD08200CE7E23 /* Main1.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B61C7A240FD08200CE7E23 /* Main1.m */; };
+		F0B61C78240FCEED00CE7E23 /* zhu2.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B61C77240FCEED00CE7E23 /* zhu2.m */; };
+		F0B61C7E240FD0C400CE7E23 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B61C7D240FD0C400CE7E23 /* Test1.m */; };
 		F0BBF8D62355CD7800BBA783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BBF8D52355CD7800BBA783 /* AppDelegate.m */; };
 		F0BBF8D92355CD7800BBA783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BBF8D82355CD7800BBA783 /* ViewController.m */; };
 		F0BBF8DC2355CD7800BBA783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BBF8DA2355CD7800BBA783 /* Main.storyboard */; };
@@ -76,6 +78,12 @@
 		F06247202363EEA60063A221 /* OhterHook2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhterHook2.m; sourceTree = "<group>"; };
 		F0B61C79240FD08200CE7E23 /* Main1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Main1.h; sourceTree = "<group>"; };
 		F0B61C7A240FD08200CE7E23 /* Main1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Main1.m; sourceTree = "<group>"; };
+		F0B61C73240FCEBB00CE7E23 /* Zhu2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zhu2.h; sourceTree = "<group>"; };
+		F0B61C74240FCEBB00CE7E23 /* Zhu2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zhu2.m; sourceTree = "<group>"; };
+		F0B61C76240FCEED00CE7E23 /* zhu2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zhu2.h; sourceTree = "<group>"; };
+		F0B61C77240FCEED00CE7E23 /* zhu2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhu2.m; sourceTree = "<group>"; };
+		F0B61C7C240FD0C400CE7E23 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		F0B61C7D240FD0C400CE7E23 /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		F0BBF8D12355CD7800BBA783 /* Test222.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test222.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BBF8D42355CD7800BBA783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0BBF8D52355CD7800BBA783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -173,6 +181,12 @@
 				F06247202363EEA60063A221 /* OhterHook2.m */,
 				F0B61C79240FD08200CE7E23 /* Main1.h */,
 				F0B61C7A240FD08200CE7E23 /* Main1.m */,
+				F0B61C7C240FD0C400CE7E23 /* Test1.h */,
+				F0B61C7D240FD0C400CE7E23 /* Test1.m */,
+				F0B61C76240FCEED00CE7E23 /* zhu2.h */,
+				F0B61C77240FCEED00CE7E23 /* zhu2.m */,
+				F0B61C73240FCEBB00CE7E23 /* Zhu2.h */,
+				F0B61C74240FCEBB00CE7E23 /* Zhu2.m */,
 				F0BBF8DA2355CD7800BBA783 /* Main.storyboard */,
 				F0BBF8DD2355CD7900BBA783 /* Assets.xcassets */,
 				F0BBF8DF2355CD7900BBA783 /* LaunchScreen.storyboard */,
@@ -347,6 +361,8 @@
 				F0242789238582DA00F90C1C /* OhterHook+Catrgory.m in Sources */,
 				F06247212363EEA60063A221 /* OhterHook2.m in Sources */,
 				F0D4C66C2363E55800E84211 /* OtherHook.m in Sources */,
+				F0B61C7E240FD0C400CE7E23 /* Test1.m in Sources */,
+				F0B61C78240FCEED00CE7E23 /* zhu2.m in Sources */,
 				F0BBF8D92355CD7800BBA783 /* ViewController.m in Sources */,
 				F0BBF8E42355CD7900BBA783 /* main.m in Sources */,
 				F0D4C6692363E43300E84211 /* UILabel+SetText.m in Sources */,
