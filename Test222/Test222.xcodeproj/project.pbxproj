@@ -16,6 +16,7 @@
 		F031610123A6825900355F8E /* DyldFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03160FA23A6825800355F8E /* DyldFramework.framework */; };
 		F031610223A6825900355F8E /* DyldFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F03160FA23A6825800355F8E /* DyldFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F06247212363EEA60063A221 /* OhterHook2.m in Sources */ = {isa = PBXBuildFile; fileRef = F06247202363EEA60063A221 /* OhterHook2.m */; };
+		F0B61C7B240FD08200CE7E23 /* Main1.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B61C7A240FD08200CE7E23 /* Main1.m */; };
 		F0BBF8D62355CD7800BBA783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BBF8D52355CD7800BBA783 /* AppDelegate.m */; };
 		F0BBF8D92355CD7800BBA783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BBF8D82355CD7800BBA783 /* ViewController.m */; };
 		F0BBF8DC2355CD7800BBA783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BBF8DA2355CD7800BBA783 /* Main.storyboard */; };
@@ -73,6 +74,8 @@
 		F03160FD23A6825900355F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F062471F2363EEA60063A221 /* OhterHook2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OhterHook2.h; sourceTree = "<group>"; };
 		F06247202363EEA60063A221 /* OhterHook2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhterHook2.m; sourceTree = "<group>"; };
+		F0B61C79240FD08200CE7E23 /* Main1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Main1.h; sourceTree = "<group>"; };
+		F0B61C7A240FD08200CE7E23 /* Main1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Main1.m; sourceTree = "<group>"; };
 		F0BBF8D12355CD7800BBA783 /* Test222.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test222.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BBF8D42355CD7800BBA783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0BBF8D52355CD7800BBA783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				F02427852385803E00F90C1C /* SonHook.m */,
 				F062471F2363EEA60063A221 /* OhterHook2.h */,
 				F06247202363EEA60063A221 /* OhterHook2.m */,
+				F0B61C79240FD08200CE7E23 /* Main1.h */,
+				F0B61C7A240FD08200CE7E23 /* Main1.m */,
 				F0BBF8DA2355CD7800BBA783 /* Main.storyboard */,
 				F0BBF8DD2355CD7900BBA783 /* Assets.xcassets */,
 				F0BBF8DF2355CD7900BBA783 /* LaunchScreen.storyboard */,
@@ -337,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0BBF8D62355CD7800BBA783 /* AppDelegate.m in Sources */,
+				F0B61C7B240FD08200CE7E23 /* Main1.m in Sources */,
 				F024278C238585CE00F90C1C /* SubHook+Category.m in Sources */,
 				F0242789238582DA00F90C1C /* OhterHook+Catrgory.m in Sources */,
 				F06247212363EEA60063A221 /* OhterHook2.m in Sources */,
