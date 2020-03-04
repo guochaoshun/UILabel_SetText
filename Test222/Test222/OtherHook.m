@@ -12,8 +12,13 @@
 #import <UIKit/UIKit.h>
 @implementation OtherHook
 
+//+ (void)initialize {
+//    NSLog(@"%@ OtherHook initialize",[self class]);
+//}
 
 + (void)load {
+    
+    NSLog(@"OtherHook load");
     
     SEL origSel = @selector(setText:) ;
     SEL altSel = @selector(setTextHooked:) ;

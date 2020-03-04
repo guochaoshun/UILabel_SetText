@@ -14,6 +14,9 @@
 
 @implementation AppDelegate
 
++ (void)load {
+    NSLog(@"AppDelegate load");
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
