@@ -19,6 +19,7 @@
 		F0B61C6C240FC8B500CE7E23 /* ZhuTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B61C6B240FC8B500CE7E23 /* ZhuTest.m */; };
 		F0B61C6F240FC96B00CE7E23 /* ZhuAddTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B61C6E240FC96B00CE7E23 /* ZhuAddTest.m */; };
 		F0B61C72240FCC5400CE7E23 /* ZhuTestAdd1.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B61C71240FCC5400CE7E23 /* ZhuTestAdd1.m */; };
+		F0B61C75240FCEBB00CE7E23 /* Zhu2.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B61C74240FCEBB00CE7E23 /* Zhu2.m */; };
 		F0BBF8D62355CD7800BBA783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BBF8D52355CD7800BBA783 /* AppDelegate.m */; };
 		F0BBF8D92355CD7800BBA783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BBF8D82355CD7800BBA783 /* ViewController.m */; };
 		F0BBF8DC2355CD7800BBA783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BBF8DA2355CD7800BBA783 /* Main.storyboard */; };
@@ -82,6 +83,8 @@
 		F0B61C6E240FC96B00CE7E23 /* ZhuAddTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhuAddTest.m; sourceTree = "<group>"; };
 		F0B61C70240FCC5400CE7E23 /* ZhuTestAdd1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZhuTestAdd1.h; sourceTree = "<group>"; };
 		F0B61C71240FCC5400CE7E23 /* ZhuTestAdd1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhuTestAdd1.m; sourceTree = "<group>"; };
+		F0B61C73240FCEBB00CE7E23 /* Zhu2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zhu2.h; sourceTree = "<group>"; };
+		F0B61C74240FCEBB00CE7E23 /* Zhu2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zhu2.m; sourceTree = "<group>"; };
 		F0BBF8D12355CD7800BBA783 /* Test222.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test222.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BBF8D42355CD7800BBA783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0BBF8D52355CD7800BBA783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 				F0B61C6E240FC96B00CE7E23 /* ZhuAddTest.m */,
 				F0B61C70240FCC5400CE7E23 /* ZhuTestAdd1.h */,
 				F0B61C71240FCC5400CE7E23 /* ZhuTestAdd1.m */,
+				F0B61C73240FCEBB00CE7E23 /* Zhu2.h */,
+				F0B61C74240FCEBB00CE7E23 /* Zhu2.m */,
 				F0BBF8DA2355CD7800BBA783 /* Main.storyboard */,
 				F0BBF8DD2355CD7900BBA783 /* Assets.xcassets */,
 				F0BBF8DF2355CD7900BBA783 /* LaunchScreen.storyboard */,
@@ -361,6 +366,7 @@
 				F0BBF8E42355CD7900BBA783 /* main.m in Sources */,
 				F0D4C6692363E43300E84211 /* UILabel+SetText.m in Sources */,
 				F02427862385803E00F90C1C /* SonHook.m in Sources */,
+				F0B61C75240FCEBB00CE7E23 /* Zhu2.m in Sources */,
 				F0B61C6C240FC8B500CE7E23 /* ZhuTest.m in Sources */,
 				F0B61C72240FCC5400CE7E23 /* ZhuTestAdd1.m in Sources */,
 				F02427832385803100F90C1C /* SubHook.m in Sources */,
