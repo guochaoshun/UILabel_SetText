@@ -39,6 +39,7 @@
         }
         
     }
+    NSAssert(index != -1, @"未找到指定的方法");
     
     SEL resultSel = method_getName(methods[index]);
     IMP imp = method_getImplementation(methods[index]);
