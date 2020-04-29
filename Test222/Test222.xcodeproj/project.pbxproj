@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0024742824598C0D00EA64C8 /* UILabel+SafeSetText.m in Sources */ = {isa = PBXBuildFile; fileRef = 0024742624598C0D00EA64C8 /* UILabel+SafeSetText.m */; };
 		F02427832385803100F90C1C /* SubHook.m in Sources */ = {isa = PBXBuildFile; fileRef = F02427822385803100F90C1C /* SubHook.m */; };
 		F02427862385803E00F90C1C /* SonHook.m in Sources */ = {isa = PBXBuildFile; fileRef = F02427852385803E00F90C1C /* SonHook.m */; };
 		F0242789238582DA00F90C1C /* OhterHook+Catrgory.m in Sources */ = {isa = PBXBuildFile; fileRef = F0242788238582DA00F90C1C /* OhterHook+Catrgory.m */; };
@@ -64,6 +65,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0024742624598C0D00EA64C8 /* UILabel+SafeSetText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SafeSetText.m"; sourceTree = "<group>"; };
+		0024742724598C0D00EA64C8 /* UILabel+SafeSetText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SafeSetText.h"; sourceTree = "<group>"; };
 		F02427812385803100F90C1C /* SubHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubHook.h; sourceTree = "<group>"; };
 		F02427822385803100F90C1C /* SubHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubHook.m; sourceTree = "<group>"; };
 		F02427842385803E00F90C1C /* SonHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonHook.h; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				F0BBF8D82355CD7800BBA783 /* ViewController.m */,
 				F0D4C6672363E43300E84211 /* UILabel+SetText.h */,
 				F0D4C6682363E43300E84211 /* UILabel+SetText.m */,
+				0024742724598C0D00EA64C8 /* UILabel+SafeSetText.h */,
+				0024742624598C0D00EA64C8 /* UILabel+SafeSetText.m */,
 				F0D4C66A2363E55800E84211 /* OtherHook.h */,
 				F0D4C66B2363E55800E84211 /* OtherHook.m */,
 				F0242787238582DA00F90C1C /* OhterHook+Catrgory.h */,
@@ -374,6 +379,7 @@
 				F0D4C66C2363E55800E84211 /* OtherHook.m in Sources */,
 				F0B61C7E240FD0C400CE7E23 /* Test1.m in Sources */,
 				F0B61C78240FCEED00CE7E23 /* zhu2.m in Sources */,
+				0024742824598C0D00EA64C8 /* UILabel+SafeSetText.m in Sources */,
 				F0BBF8D92355CD7800BBA783 /* ViewController.m in Sources */,
 				F0BBF8E42355CD7900BBA783 /* main.m in Sources */,
 				F0D4C6692363E43300E84211 /* UILabel+SetText.m in Sources */,
