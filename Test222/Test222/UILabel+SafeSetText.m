@@ -27,7 +27,8 @@
     // 2.找到第一个匹配的就是系统的原始方法,
     // 3.用原始方法的imp指针调用
     u_int count = 0;
-    Method * methods = class_copyMethodList([self class], &count);
+    // class_copyMethodList只会找本类的方法,如果是UILabel的子类会找不到而崩溃
+    Method * methods = class_copyMethodList([UILabel class], &count);
     NSInteger index = -1;
     for (int i = count-1; i>=0; i--) {
         SEL tempSel = method_getName(methods[i]);
