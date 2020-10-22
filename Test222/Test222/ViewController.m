@@ -148,4 +148,10 @@
 
 
 
+#pragma mark - 我是发布分支2后的代码---需求分支
+- (void)addReleaseTest2OfProduct {
+    NSLog(@"%s", __func__);
+}
+
+
 @end
