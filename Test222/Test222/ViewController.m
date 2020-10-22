@@ -111,7 +111,17 @@
 }
 
 
+
 - (void)masterTest1 {
+    NSLog(@"%s", __func__);
+}
+
+- (void)addDeveloperTest1 {
+    NSLog(@"%s", __func__);
+}
+
+- (void)addTwoDeveloperTest1 {
+
     NSLog(@"%s", __func__);
 }
 
