@@ -141,5 +141,9 @@
 }
 
 
+- (void)addReleaseTestOfProduct1 {
+    NSLog(@"%s", __func__);
+}
+
 
 @end
