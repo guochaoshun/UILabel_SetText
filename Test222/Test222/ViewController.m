@@ -135,4 +135,17 @@
     NSLog(@"%s", __func__);
 }
 
+
+#pragma mark - 我是发布分支后的代码---需求分支
+- (void)addReleaseTestOfProduct {
+    NSLog(@"%s", __func__);
+}
+
+
+- (void)addReleaseTestOfProduct1 {
+    NSLog(@"%s", __func__);
+}
+
+
+
 @end
