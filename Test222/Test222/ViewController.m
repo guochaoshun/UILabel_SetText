@@ -129,4 +129,10 @@
     NSLog(@"%s", __func__);
 }
 
+
+#pragma mark - 我是发布分支后的代码
+- (void)addReleaseTest {
+    NSLog(@"%s", __func__);
+}
+
 @end
