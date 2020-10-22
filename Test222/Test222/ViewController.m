@@ -110,4 +110,9 @@
     NSLog(@"asyncConCurrent---end");
 }
 
+
+- (void)masterTest1 {
+    NSLog(@"%s", __func__);
+}
+
 @end
